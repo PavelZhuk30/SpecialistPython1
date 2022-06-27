@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input("Число"))
+if (number <= 999 and number > 99) or (number <= -999 and number < -99):
+    print("yes")
+else:
+    print("no")
 ```
 
 ---
